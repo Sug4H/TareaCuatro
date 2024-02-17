@@ -1,0 +1,95 @@
+/* Estilos para Registro Hotel */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-56228.jpg");
+}
+
+h1, label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+input[type=text], input[type=tel], select, input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type=submit], input[type=button] {
+    width: 48%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-right: 2%;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2 {
+    overflow: hidden;
+}
+
+.boton_menu {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.boton_menu:hover {
+    background-color: #45a049;
+}

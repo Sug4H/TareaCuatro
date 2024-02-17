@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Hotel</title>
+    <link rel="stylesheet" href="../css/estilo_registro.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro Hotel</h1>
+        <form name="forma" id="forma" action="#" method="post" onsubmit="return valida_forma();">
+            <div id="row">
+                <div class="col-25">
+                    <label>Identificación:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="f_identificacion" id="f_identificacion" placeholder="Ingrese su identificación" class="mayusculas">
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Nombres:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="f_nombres" id="f_nombres" placeholder="Ingrese sus nombres" class="mayusculas">
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Apellidos:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="f_apellidos" id="f_apellidos" placeholder="Ingrese sus apellidos" class="mayusculas">
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Teléfono:</label>
+                </div>
+                <div class="col-75">
+                    <input type="tel" name="f_telefono" id="f_telefono" placeholder="Ingrese su teléfono">
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Habitación:</label>
+                </div>
+                <div class="col-75">
+                    <select name="f_habitacion" id="f_habitacion">
+                        <option value="">Seleccione:</option>
+                        <option value="101">101</option>
+                        <option value="102">102</option>
+                        <option value="103">103</option>
+                        <option value="104">104</option>
+
+                    </select>
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Tipo de Sangre:</label>
+                </div>
+                <div class="col-75">
+                    <select name="f_tipo_sangre" id="f_tipo_sangre">
+                        <option value="">Seleccione:</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Fecha de Ingreso:</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="f_fecha_ingreso" id="f_fecha_ingreso">
+                </div>
+            </div>
+            <div id="row">
+                <div class="col-25">
+                    <label>Fecha de Salida:</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="f_fecha_salida" id="f_fecha_salida">
+                </div>
+            </div>
+            <div id="row2">
+                <input class="boton_menu" type="submit" value="Registrar" />
+                <input class="boton_menu" type="button" value="Cancelar" />
+            </div>
+        </form>
+    </div><!-- end container-->
+    <script src="../js/validations.js"></script>
+</body>
+</html>
